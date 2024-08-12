@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Methods</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Post</h1>
+    
+    <button id="fetch-button">Initial Fetch</button>
+    
+    <form id="post-form">
+        <label for="user-id">User ID:</label>
+        <input type="number" id="user-id" required><br>
+        
+        <label for="title">Title:</label>
+        <input type="text" id="title" required><br>
+        
+        <label for="body">Body:</label>
+        <textarea id="body" required></textarea><br>
+        
+        <button type="submit">Create Post</button>
+    </form>
+    
+    <div id="data-container"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

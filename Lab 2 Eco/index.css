@@ -1,0 +1,109 @@
+* {
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1c1c;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white ;
+
+}
+
+#data-container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: calc(33% - 20px);
+    box-sizing: border-box; 
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+img {
+    max-width: 100%; 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 50%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+#fetch-button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#fetch-button:hover {
+    background-color: #27ae60;
+}
